@@ -1,0 +1,3 @@
+[submodule "rula"]
+	path = rula
+	url = https://github.com/Chibikuri/rula.git
