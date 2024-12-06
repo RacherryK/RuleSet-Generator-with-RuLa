@@ -1,0 +1,14 @@
+{
+    "Application_data": {
+        "ApplicationType": "Teleportation",
+        "DataType": "Bellpair",
+        "Fidelity": 0.99,
+        "Resource/shot": 1,
+        "#ofshot": 10,
+        "EndTime(sec)": 60
+    },
+    "Repeater_data": {
+        "MaxStorage": 10,
+        "CurrentStorage": 6
+    }
+}

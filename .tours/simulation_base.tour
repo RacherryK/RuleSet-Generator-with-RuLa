@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "simulation_base",
+  "steps": [
+    {
+      "file": "simulation_base.py",
+      "description": "socketにローカルアドレスを紐付けるためのもの\nlocalhost:これは実行中のコンピュータ自身を指す場合のホスト名。通常は、127.0.0.1に解決され、サーバは自分自身に接続するクライアントからの接続を待機する。\n0.0.0.0:これはすべてのインタフェースを指定する特別なIPアドレス。外部からの接続も受け入れることができる。",
+      "line": 41
+    },
+    {
+      "file": "simulation_base.py",
+      "description": "conn：データの送受信をする役割\nserver_socket：接続を待ち受ける役割\n",
+      "line": 45
+    },
+    {
+      "file": "simulation_base.py",
+      "description": "listen(backlog):ソケットを接続待ち状態にする。backlogは同時に受け入れられる接続の最大数を指定。",
+      "line": 42
+    }
+  ]
+}

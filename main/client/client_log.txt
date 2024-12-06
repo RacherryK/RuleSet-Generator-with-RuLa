@@ -1,0 +1,150 @@
+04:20:51 - 
+ time: 2024-12-06 04:20:51
+04:21:02 - (Client)Sent: HI
+04:21:02 - (Client) Received from Server: ACK (HI)
+04:21:10 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.9, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+04:21:10 - (Client) Wait for estimated execution time
+04:21:10 - (Client) Moved to stage 2
+04:21:12 - (Client) Received from Server: Estimated execution time (min) : 5
+04:21:16 - (Client) Approved
+04:21:16 - (Client) Moved to stage 3
+04:21:18 - (Client) Got data: 735
+04:21:18 - (Client) Got data size: 735
+04:21:18 - (Client) RuleSet target is 0
+04:21:18 - (Client) Received RuleSet: {'name': 'entanglement_swapping', 'id': 9876543210, 'owner_addr': 0, 'stages': [{'rules': [{'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}, {'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}], 'stage_id': 0}], 'num_rules': 1}
+04:21:18 - (Client) Moved to stage 4
+04:22:31 - (Client) Connection closed.
+04:22:33.597 - 
+ time: 2024-12-06 04:22:33
+04:23:21.368 - (Client)Sent: konichiha
+04:23:21.369 - (Client) Received from Server: ACK (konichiha)
+04:23:30.141 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.9, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+04:23:30.146 - (Client) Wait for estimated execution time
+04:23:30.146 - (Client) Moved to stage 2
+04:23:32.148 - (Client) Received from Server: Estimated execution time (min) : 5
+04:23:36.752 - (Client) Approved
+04:23:36.753 - (Client) Moved to stage 3
+04:23:37.748 - (Client) Got data: 735
+04:23:37.748 - (Client) Got data size: 735
+04:23:37.748 - (Client) RuleSet target is 0
+04:23:37.748 - (Client) Received RuleSet: {'name': 'entanglement_swapping', 'id': 9876543210, 'owner_addr': 0, 'stages': [{'rules': [{'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}, {'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}], 'stage_id': 0}], 'num_rules': 1}
+04:23:37.749 - (Client) Moved to stage 4
+04:23:47.307 - (Client) Sent: hi
+04:23:47.308 - (Client) Received from Server: ACK (hi)
+04:23:50.345 - (Client) Connection closed.
+
+04:24:32.741 - 
+ time: 2024-12-06 04:24:32
+04:24:57.093 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.9, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+04:24:57.095 - (Client) Wait for estimated execution time
+04:24:57.095 - (Client) Moved to stage 2
+04:24:59.102 - (Client) Received from Server: Estimated execution time (min) : 5
+04:25:00.954 - (Client) Rejected
+04:25:00.957 - (Client) Moved to stage 1
+04:25:16.416 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.9, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+14:35:55.275 - 
+ time: 2024-12-06 14:35:55
+14:36:06.708 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.9, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+14:36:06.712 - (Client) Wait for estimated execution time
+14:36:06.712 - (Client) Moved to stage 2
+14:36:08.718 - (Client) Received from Server: Estimated execution time (min) : 5
+14:36:10.874 - (Client) Rejected
+14:36:10.876 - (Client) Moved to stage 1
+14:36:15.368 - (Client)Sent: hi
+14:41:13.544 - 
+ time: 2024-12-06 14:41:13
+14:41:18.688 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.9, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+14:41:18.691 - (Client) Wait for estimated execution time
+14:41:18.692 - (Client) Moved to stage 2
+14:41:20.697 - (Client) Received from Server: Estimated execution time (min) : 5
+14:41:22.607 - (Client) Rejected
+14:41:22.609 - (Client) Moved to stage 1
+14:41:32.742 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.9, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+14:41:32.744 - (Client) Wait for estimated execution time
+14:41:32.744 - (Client) Moved to stage 2
+14:41:34.750 - (Client) Received from Server: Estimated execution time (min) : 5
+14:41:37.999 - (Client) Approved
+14:41:38.003 - (Client) Moved to stage 3
+14:41:39.661 - (Client) Got data: 735
+14:41:39.661 - (Client) Got data size: 735
+14:41:39.662 - (Client) RuleSet target is 0
+14:41:39.662 - (Client) Received RuleSet: {'name': 'entanglement_swapping', 'id': 9876543210, 'owner_addr': 0, 'stages': [{'rules': [{'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}, {'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}], 'stage_id': 0}], 'num_rules': 1}
+14:41:39.662 - (Client) Moved to stage 4
+14:41:58.972 - (Client) Connection closed.
+14:42:01.669 - 
+ time: 2024-12-06 14:42:01
+14:42:09.208 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.9, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+14:42:09.211 - (Client) Wait for estimated execution time
+14:42:09.212 - (Client) Moved to stage 2
+14:42:11.217 - (Client) Received from Server: Estimated execution time (min) : 5
+14:42:38.461 - (Client) Approved
+14:42:38.462 - (Client) Moved to stage 3
+14:42:39.430 - (Client) Got data: 735{"name": "entanglement_swapping", "id": 9876543210, "owner_addr": 0, "stages": [{"rules": [{"name": "Wait", "id": 0, "shared_tag": 0, "qnic_interfaces": {}, "condition": {"name": null, "clauses": [{"Wait": {"Update": {"partner_addr": 0}}}, {"Wait": {"Transfer": {"partner_addr": 0}}}]}, "action": {"name": null, "clauses": [{"Wait": {"Update": {"partner_addr": 0}}}, {"Wait": {"Transfer": {"partner_addr": 0}}}]}, "is_finalized": false}, {"name": "Wait", "id": 0, "shared_tag": 0, "qnic_interfaces": {}, "condition": {"name": null, "clauses": [{"Wait": {"Free": {"partner_addr": 0}}}, {"Wait": {"Transfer": {"partner_addr": 0}}}]}, "action": {"name": null, "clauses": [{"Wait": {"Free": {"partner_addr": 0}}}, {"Wait": {"Transfer": {"partner_addr": 0}}}]}, "is_finalized": false}], "stage_id": 0}], "num_rules": 1}
+
+14:44:41.823 - 
+ time: 2024-12-06 14:44:41
+14:44:47.273 - (Client)Sent: hi
+14:44:47.274 - (Client) Received from Server: ACK (hi)
+14:44:54.033 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.9, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+14:44:54.035 - (Client) Wait for estimated execution time
+14:44:54.035 - (Client) Moved to stage 2
+14:44:56.042 - (Client) Received from Server: Estimated execution time (min) : 5
+14:44:59.469 - (Client) Approved
+14:44:59.470 - (Client) Moved to stage 3
+14:45:00.437 - (Client) Got data: 735
+14:45:00.437 - (Client) Got data size: 735
+14:45:00.437 - (Client) RuleSet target is 0
+14:45:00.437 - (Client) Received RuleSet: {'name': 'entanglement_swapping', 'id': 9876543210, 'owner_addr': 0, 'stages': [{'rules': [{'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}, {'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}], 'stage_id': 0}], 'num_rules': 1}
+14:45:00.437 - (Client) Moved to stage 4
+14:45:08.617 - (Client) Connection closed.
+14:45:10.484 - 
+ time: 2024-12-06 14:45:10
+14:45:17.161 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.9, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+14:45:17.163 - (Client) Wait for estimated execution time
+14:45:17.163 - (Client) Moved to stage 2
+14:45:19.169 - (Client) Received from Server: Estimated execution time (min) : 5
+14:45:26.441 - (Client) Rejected
+14:45:26.443 - (Client) Moved to stage 1
+14:45:34.841 - (Client)Sent: konichiha
+14:45:34.843 - (Client) Received from Server: ACK (konichiha)
+14:45:41.112 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.9, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+14:45:41.114 - (Client) Wait for estimated execution time
+14:45:41.114 - (Client) Moved to stage 2
+14:45:43.120 - (Client) Received from Server: Estimated execution time (min) : 5
+14:45:44.866 - (Client) Approved
+14:45:44.868 - (Client) Moved to stage 3
+14:45:45.862 - (Client) Got data: 735
+14:45:45.862 - (Client) Got data size: 735
+14:45:45.863 - (Client) RuleSet target is 0
+14:45:45.863 - (Client) Received RuleSet: {'name': 'entanglement_swapping', 'id': 9876543210, 'owner_addr': 0, 'stages': [{'rules': [{'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}, {'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}], 'stage_id': 0}], 'num_rules': 1}
+14:45:45.863 - (Client) Moved to stage 4
+15:04:55.304 - (Client) Connection closed.
+15:04:59.253 - 
+ time: 2024-12-06 15:04:59
+15:05:03.484 - 
+ time: 2024-12-06 15:05:03
+15:05:11.076 - 
+ time: 2024-12-06 15:05:11
+15:05:15.373 - 
+ time: 2024-12-06 15:05:15
+15:05:19.117 - 
+ time: 2024-12-06 15:05:19
+15:05:21.816 - 
+ time: 2024-12-06 15:05:21
+15:05:24.582 - 
+ time: 2024-12-06 15:05:24
+15:05:26.614 - 
+ time: 2024-12-06 15:05:26
+15:05:35.777 - 
+ time: 2024-12-06 15:05:35
+15:06:03.183 - (Client)Sent JSON data: {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.95, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}
+15:06:03.186 - (Client) Wait for estimated execution time
+15:06:03.186 - (Client) Moved to stage 2
+15:06:05.191 - (Client) Received from Server: Estimated execution time (min) : 5
+15:06:18.921 - (Client) Approved
+15:06:18.924 - (Client) Moved to stage 3
+15:06:20.172 - (Client) Got data: 735
+15:06:20.172 - (Client) Got data size: 735
+15:06:20.172 - (Client) RuleSet target is 0
+15:06:20.172 - (Client) Received RuleSet: {'name': 'entanglement_swapping', 'id': 9876543210, 'owner_addr': 0, 'stages': [{'rules': [{'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Update': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}, {'name': 'Wait', 'id': 0, 'shared_tag': 0, 'qnic_interfaces': {}, 'condition': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'action': {'name': None, 'clauses': [{'Wait': {'Free': {'partner_addr': 0}}}, {'Wait': {'Transfer': {'partner_addr': 0}}}]}, 'is_finalized': False}], 'stage_id': 0}], 'num_rules': 1}
+15:06:20.172 - (Client) Moved to stage 4

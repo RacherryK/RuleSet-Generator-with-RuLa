@@ -1,0 +1,18 @@
+(Repeater)Relay waiting for connection from client...
+(Server)Waiting for connection...
+(Repeater)Relay connected to Client: ('127.0.0.1', 65161)
+
+(Server)Connection from Repeater: ('127.0.0.1', 65162)
+
+(Client) Connection closed.
+(Repeater) Connection closed.
+(Server) Connection closed.
+(Repeater)Relay waiting for connection from client...
+(Server)Waiting for connection...
+(Repeater)Relay connected to Client: ('127.0.0.1', 65168)
+
+(Server)Connection from Repeater: ('127.0.0.1', 65169)
+
+(Client) Connection closed.
+(Repeater) Connection closed.
+(Server) Connection closed.

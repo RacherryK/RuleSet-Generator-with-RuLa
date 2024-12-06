@@ -1,0 +1,8 @@
+{
+    "ApplicationType": "Teleportation",
+    "DataType": "Bellpair",
+    "Fidelity": 0.9,
+    "Resource/shot": 1,
+    "#ofshot": 50,
+    "EndTime(sec)": 60
+}

@@ -1,0 +1,532 @@
+{
+    "name": "entanglement_swapping",
+    "id": 9876543210,
+    "owner_addr": 1,
+    "stages": [
+        {
+            "rules": [
+                {
+                    "name": "swapping",
+                    "id": 0,
+                    "shared_tag": 0,
+                    "qnic_interfaces": {},
+                    "condition": {
+                        "name": null,
+                        "clauses": [
+                            {
+                                "Res": {
+                                    "name": "enough_resource",
+                                    "num_required_resource": 1,
+                                    "partner_addr": 0,
+                                    "required_fidelity": 0.95
+                                }
+                            },
+                            {
+                                "Res": {
+                                    "name": "enough_resource",
+                                    "num_required_resource": 1,
+                                    "partner_addr": 2,
+                                    "required_fidelity": 0.95
+                                }
+                            },
+                            {
+                                "Cmp": {
+                                    "cmp_val": "MeasResult",
+                                    "operator": "Eq",
+                                    "target_val": {
+                                        "MeasResult": "00"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "action": {
+                        "name": null,
+                        "clauses": [
+                            {
+                                "QCirc": {
+                                    "qgates": [
+                                        {
+                                            "qubit_identifier": {
+                                                "qubit_index": 0
+                                            },
+                                            "kind": "CxControl"
+                                        },
+                                        {
+                                            "qubit_identifier": {
+                                                "qubit_index": 1
+                                            },
+                                            "kind": "CxTarget"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Measure": {
+                                    "qubit_identifier": {
+                                        "qubit_index": 0
+                                    },
+                                    "basis": "X"
+                                }
+                            },
+                            {
+                                "Measure": {
+                                    "qubit_identifier": {
+                                        "qubit_index": 1
+                                    },
+                                    "basis": "Z"
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Transfer": {
+                                        "partner_addr": 0
+                                    }
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Transfer": {
+                                        "partner_addr": 2
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "is_finalized": false
+                },
+                {
+                    "name": "swapping",
+                    "id": 0,
+                    "shared_tag": 0,
+                    "qnic_interfaces": {},
+                    "condition": {
+                        "name": null,
+                        "clauses": [
+                            {
+                                "Res": {
+                                    "name": "enough_resource",
+                                    "num_required_resource": 1,
+                                    "partner_addr": 0,
+                                    "required_fidelity": 0.95
+                                }
+                            },
+                            {
+                                "Res": {
+                                    "name": "enough_resource",
+                                    "num_required_resource": 1,
+                                    "partner_addr": 2,
+                                    "required_fidelity": 0.95
+                                }
+                            },
+                            {
+                                "Cmp": {
+                                    "cmp_val": "MeasResult",
+                                    "operator": "Eq",
+                                    "target_val": {
+                                        "MeasResult": "01"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "action": {
+                        "name": null,
+                        "clauses": [
+                            {
+                                "QCirc": {
+                                    "qgates": [
+                                        {
+                                            "qubit_identifier": {
+                                                "qubit_index": 0
+                                            },
+                                            "kind": "CxControl"
+                                        },
+                                        {
+                                            "qubit_identifier": {
+                                                "qubit_index": 1
+                                            },
+                                            "kind": "CxTarget"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Measure": {
+                                    "qubit_identifier": {
+                                        "qubit_index": 0
+                                    },
+                                    "basis": "X"
+                                }
+                            },
+                            {
+                                "Measure": {
+                                    "qubit_identifier": {
+                                        "qubit_index": 1
+                                    },
+                                    "basis": "Z"
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Update": {
+                                        "partner_addr": 0
+                                    }
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Transfer": {
+                                        "partner_addr": 0
+                                    }
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Transfer": {
+                                        "partner_addr": 2
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "is_finalized": false
+                },
+                {
+                    "name": "swapping",
+                    "id": 0,
+                    "shared_tag": 0,
+                    "qnic_interfaces": {},
+                    "condition": {
+                        "name": null,
+                        "clauses": [
+                            {
+                                "Res": {
+                                    "name": "enough_resource",
+                                    "num_required_resource": 1,
+                                    "partner_addr": 0,
+                                    "required_fidelity": 0.95
+                                }
+                            },
+                            {
+                                "Res": {
+                                    "name": "enough_resource",
+                                    "num_required_resource": 1,
+                                    "partner_addr": 2,
+                                    "required_fidelity": 0.95
+                                }
+                            },
+                            {
+                                "Cmp": {
+                                    "cmp_val": "MeasResult",
+                                    "operator": "Eq",
+                                    "target_val": {
+                                        "MeasResult": "10"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "action": {
+                        "name": null,
+                        "clauses": [
+                            {
+                                "QCirc": {
+                                    "qgates": [
+                                        {
+                                            "qubit_identifier": {
+                                                "qubit_index": 0
+                                            },
+                                            "kind": "CxControl"
+                                        },
+                                        {
+                                            "qubit_identifier": {
+                                                "qubit_index": 1
+                                            },
+                                            "kind": "CxTarget"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Measure": {
+                                    "qubit_identifier": {
+                                        "qubit_index": 0
+                                    },
+                                    "basis": "X"
+                                }
+                            },
+                            {
+                                "Measure": {
+                                    "qubit_identifier": {
+                                        "qubit_index": 1
+                                    },
+                                    "basis": "Z"
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Update": {
+                                        "partner_addr": 2
+                                    }
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Transfer": {
+                                        "partner_addr": 0
+                                    }
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Transfer": {
+                                        "partner_addr": 2
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "is_finalized": false
+                },
+                {
+                    "name": "swapping",
+                    "id": 0,
+                    "shared_tag": 0,
+                    "qnic_interfaces": {},
+                    "condition": {
+                        "name": null,
+                        "clauses": [
+                            {
+                                "Res": {
+                                    "name": "enough_resource",
+                                    "num_required_resource": 1,
+                                    "partner_addr": 0,
+                                    "required_fidelity": 0.95
+                                }
+                            },
+                            {
+                                "Res": {
+                                    "name": "enough_resource",
+                                    "num_required_resource": 1,
+                                    "partner_addr": 2,
+                                    "required_fidelity": 0.95
+                                }
+                            },
+                            {
+                                "Cmp": {
+                                    "cmp_val": "MeasResult",
+                                    "operator": "Eq",
+                                    "target_val": {
+                                        "MeasResult": "11"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "action": {
+                        "name": null,
+                        "clauses": [
+                            {
+                                "QCirc": {
+                                    "qgates": [
+                                        {
+                                            "qubit_identifier": {
+                                                "qubit_index": 0
+                                            },
+                                            "kind": "CxControl"
+                                        },
+                                        {
+                                            "qubit_identifier": {
+                                                "qubit_index": 1
+                                            },
+                                            "kind": "CxTarget"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Measure": {
+                                    "qubit_identifier": {
+                                        "qubit_index": 0
+                                    },
+                                    "basis": "X"
+                                }
+                            },
+                            {
+                                "Measure": {
+                                    "qubit_identifier": {
+                                        "qubit_index": 1
+                                    },
+                                    "basis": "Z"
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Update": {
+                                        "partner_addr": 0
+                                    }
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Update": {
+                                        "partner_addr": 2
+                                    }
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Transfer": {
+                                        "partner_addr": 0
+                                    }
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Transfer": {
+                                        "partner_addr": 2
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "is_finalized": false
+                },
+                {
+                    "name": "swapping",
+                    "id": 0,
+                    "shared_tag": 0,
+                    "qnic_interfaces": {},
+                    "condition": {
+                        "name": null,
+                        "clauses": [
+                            {
+                                "Res": {
+                                    "name": "enough_resource",
+                                    "num_required_resource": 1,
+                                    "partner_addr": 0,
+                                    "required_fidelity": 0.95
+                                }
+                            },
+                            {
+                                "Res": {
+                                    "name": "enough_resource",
+                                    "num_required_resource": 1,
+                                    "partner_addr": 2,
+                                    "required_fidelity": 0.95
+                                }
+                            },
+                            {
+                                "Cmp": {
+                                    "cmp_val": "MeasResult",
+                                    "operator": "Neq",
+                                    "target_val": {
+                                        "MeasResult": "00"
+                                    }
+                                }
+                            },
+                            {
+                                "Cmp": {
+                                    "cmp_val": "MeasResult",
+                                    "operator": "Neq",
+                                    "target_val": {
+                                        "MeasResult": "01"
+                                    }
+                                }
+                            },
+                            {
+                                "Cmp": {
+                                    "cmp_val": "MeasResult",
+                                    "operator": "Neq",
+                                    "target_val": {
+                                        "MeasResult": "10"
+                                    }
+                                }
+                            },
+                            {
+                                "Cmp": {
+                                    "cmp_val": "MeasResult",
+                                    "operator": "Neq",
+                                    "target_val": {
+                                        "MeasResult": "11"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "action": {
+                        "name": null,
+                        "clauses": [
+                            {
+                                "QCirc": {
+                                    "qgates": [
+                                        {
+                                            "qubit_identifier": {
+                                                "qubit_index": 0
+                                            },
+                                            "kind": "CxControl"
+                                        },
+                                        {
+                                            "qubit_identifier": {
+                                                "qubit_index": 1
+                                            },
+                                            "kind": "CxTarget"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Measure": {
+                                    "qubit_identifier": {
+                                        "qubit_index": 0
+                                    },
+                                    "basis": "X"
+                                }
+                            },
+                            {
+                                "Measure": {
+                                    "qubit_identifier": {
+                                        "qubit_index": 1
+                                    },
+                                    "basis": "Z"
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Free": {
+                                        "partner_addr": 0
+                                    }
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Free": {
+                                        "partner_addr": 2
+                                    }
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Transfer": {
+                                        "partner_addr": 0
+                                    }
+                                }
+                            },
+                            {
+                                "Send": {
+                                    "Transfer": {
+                                        "partner_addr": 2
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "is_finalized": false
+                }
+            ],
+            "stage_id": 0
+        }
+    ],
+    "num_rules": 1
+}
