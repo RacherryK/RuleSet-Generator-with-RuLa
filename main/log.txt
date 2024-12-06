@@ -4786,3 +4786,7 @@ Error saving JSON data to ./server/received/./server/ruleset_20241205_190025.jso
 (Server) Received RuleSet: {'Application_data': {'ApplicationType': 'Teleportation', 'DataType': 'Bellpair', 'Fidelity': 0.95, 'Resource/shot': 1, '#ofshot': 50, 'EndTime(sec)': 60}, 'Repeater_data': {'MaxStorage': 10, 'CurrentStorage': 6}}
 (Server) Finish to send RuleSets
 (Server) Moved to stage 4
+(Client) Connection closed.
+(Repeater) Received response from client: exit
+(Repeater) Connection closed.
+(Server) Connection closed.
